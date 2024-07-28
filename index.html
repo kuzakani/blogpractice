@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <title> Blog Site</title>
+</head>
+<body>
+
+
+       
+
+        <header>
+
+             <nav class="side-nav"> 
+                <div class="side-nav-top">
+                    <a href="#">
+                        <img width="119px" height="34px" src="./images/logo.svg" alt="">
+                    </a>
+                    <button class="menu-close">
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+                <ul role="list" class="side-nav-list">
+                    <li><a href="#"> Home </a></li>
+                    <li><a href="#"> Topics </a></li>
+                    <li><a href="#"> Featured Post </a></li>
+                    <li><a href="#"> Recent Post </a></li>
+                    <li><a href="#"> Contact </a></li>
+                </ul>
+                <div class="second-block" >
+                    <div class="pfp-alerts">
+                        <img src="./images/author-1.png" alt="">
+                        <ul class="alerts">
+                            <li> <h3> Hello Steven ! </h3> </li>
+                            <li> <p> you have 3 new messages </p> </li>
+                        </ul>
+                    </div>
+                    <ul class="account-features-list">
+                        <li><a href="#">Profile</a>  </li>
+                        <li><a href="#">Articles Saved</a>  </li>
+                        <li><a href="#">Add New Post</a>  </li>
+                        <li><a href="#">My Likes</a>  </li>
+                        <li><a href="#">Account Setting</a>  </li>
+                        <li><a href="#">Sign Out</a>  </li>
+                    </ul>
+                </div>
+                 <ul class="cr-add">
+                            <li> <p> Copyright 2022 © Wren - Personal Blog </p> </li>
+                            <li> <p> Template. Developed by codewithsadee </p> </li>
+                </ul>
+            
+            
+            </nav>
+
+            <div class="header-content container">
+                <a  class="logo" href="#">
+                    <img width="119px" height="34px" src="./images/logo.svg" alt="">
+                </a>
+                <ul role="list" class="header-nav">
+                    <li class="link"><a href="#"> Home </a></li>
+                    <li class="link"><a href="#"> Topics </a></li>
+                    <li class="link"><a href="#"> Featured Post </a></li>
+                    <li class="link"><a href="#"> Recent Post </a></li>
+                    <li class="link"><a href="#"> Contact </a></li>
+                </ul>
+                <span class="btn-toggle">
+                    <a class="header-btn" href="#">Subscribe</a>
+                    <button class="mobile-nav-toggle">
+                        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </span>
+            </div>
+        </header>
+    
+        <main class="padding-top-900">
+            <div class="container hero-grid ">
+                <div class="hero-content">
+                    <h4> Hello Everyone! </h4>
+                    <h1> I'm <span> Wren Clark </span></h1>
+                    <p class="margin-bottom-100 "> I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that. </p>
+                    <div class="input-field">
+                        <input type="text" placeholder=" Type your email address" name="" id="">
+                        <button class="hero-btn">
+                            <span> Subscribe </span>
+                            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                        </button>
+                    </div>
+                </div>
+                <div class="hero-banner">
+                    <img src="./images/hero-banner.png" alt="">
+                </div>
+            </div>
+        </main>
+
+        <section class="carousel">
+            <div class="container hot-topics">
+                <div class="topics-intro">
+                    <h4> Hot topics</h4>
+                    <p> Don't miss out on the latest news about Travel tips, Hotels review, Food guide... </p>
+                    <span class="scroll-btns">
+                        <a href="#"> <ion-icon name="arrow-back" aria-hidden="true"></ion-icon></a>
+                        <a href="#"> <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon> </a>
+                        
+                    </span>
+                </div>
+                <div class="topics-grid">
+                    <div class=" hot-topic hot-topic-one">
+                        <img src="./images/topic-1.png" alt="">
+                        <div class="topic-cover"></div>
+                        <span class="topic-desc"> 
+                           <h3> Sport </h3> 
+                           <p> 36 Articles </p>
+                        </span>
+                    </div>
+                    <div class=" hot-topic hot-topic-two">
+                        <img src="./images/topic-2.png" alt="">
+                        <div class="topic-cover"></div>
+                        <span class="topic-desc"> 
+                           <h3> travel </h3> 
+                           <p> 22 Articles </p>
+                        </span>
+                    </div>
+                    <div class=" hot-topic hot-topic-three">
+                        <img src="./images/topic-3.png" alt="">
+                        <span class="topic-desc"> 
+                           <h3> design </h3> 
+                           <p> 44 Articles </p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="picked-edits | margin-top-200 margin-bottom-300">
+         <div class="container editorPicks">
+            <div class="picks-intro">
+                <h2> Editor's Picked </h2>
+                <p>Featured and highly rated articles</p>
+            </div>
+            <div class="picks-grid">
+                <div class="two-columns">
+                    <div class="pick pick-one">
+                        <img class="image-cover" src="./images/featured-1.png" alt="">
+                         <ul class="pick-desc">
+                            <li class="hashtag-readTime">
+                                <span class="hashtags">
+                                    <p>#Travel</p>
+                                    <p>#Lifestyle</p>
+                                </span>
+                                <span class="read-time">
+                                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                                    <p> 3 mins read</p>
+                                </span> 
+                            </li>
+                            <li class="montra">
+                                <p> Self-observation is the first step of inner unfolding </p>
+                            </li>
+                            <li class="profile-cta">
+                                <div class="profile-date">
+                                    <img src="./images/author-1.png" alt="">
+                                    <span class="author-info">
+                                        <h3> Joseph </h3>
+                                        <p> 25 Nov 2022 </p>
+                                    </span>
+                                </div>
+                                <a href="#"> Read more</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pick pick-two">
+                        <img class="image-cover" src="./images/featured-2.png" alt="">
+                        <ul class="pick-desc">
+                            <li class="hashtag-readTime">
+                                <span class="hashtags">
+                                    <p>#Travel</p>
+                                    <p>#Lifestyle</p>
+                                </span>
+                                <span class="read-time">
+                                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                                    <p> 3 mins read</p>
+                                </span> 
+                            </li>
+                            <li class="montra">
+                                <p> Self-observation is the first step of inner unfolding </p>
+                            </li>
+                            <li class="profile-cta">
+                                <div class="profile-date">
+                                    <img src="./images/author-1.png" alt="">
+                                    <span class="author-info">
+                                        <h3> Joseph </h3>
+                                        <p> 25 Nov 2022 </p>
+                                    </span>
+                                </div>
+                                <a href="#"> Read more</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="three-columns">
+                    <div class="pick">
+                        <img class="image-cover" src="./images/featured-3.png" alt="">
+                        <ul class="pick-desc">
+                            <li class="hashtag-readTime">
+                                <span class="hashtags">
+                                    <p>#Travel</p>
+                                    <p>#Lifestyle</p>
+                                </span>
+                                <span class="read-time">
+                                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                                    <p> 3 mins read</p>
+                                </span> 
+                            </li>
+                            <li class="montra">
+                                <p> Self-observation is the first step of inner unfolding </p>
+                            </li>
+                            <li class="profile-cta">
+                                <div class="profile-date">
+                                    <img src="./images/author-1.png" alt="">
+                                    <span class="author-info">
+                                        <h3> Joseph </h3>
+                                        <p> 25 Nov 2022 </p>
+                                    </span>
+                                </div>
+                                <a href="#"> Read more</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pick">
+                        <img class="image-cover" src="./images/featured-4.png" alt="">
+                        <ul class="pick-desc">
+                            <li class="hashtag-readTime">
+                                <span class="hashtags">
+                                    <p>#Travel</p>
+                                    <p>#Lifestyle</p>
+                                </span>
+                                <span class="read-time">
+                                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                                    <p> 3 mins read</p>
+                                </span> 
+                            </li>
+                            <li class="montra">
+                                <p> Self-observation is the first step of inner unfolding </p>
+                            </li>
+                            <li class="profile-cta">
+                                <div class="profile-date">
+                                    <img src="./images/author-1.png" alt="">
+                                    <span class="author-info">
+                                        <h3> Joseph </h3>
+                                        <p> 25 Nov 2022 </p>
+                                    </span>
+                                </div>
+                                <a href="#"> Read more</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pick">
+                        <img class="image-cover" src="./images/featured-5.png" alt="">
+                        <ul class="pick-desc">
+                            <li class="hashtag-readTime">
+                                <span class="hashtags">
+                                    <p>#Travel</p>
+                                    <p>#Lifestyle</p>
+                                </span>
+                                <span class="read-time">
+                                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                                    <p> 3 mins read</p>
+                                </span> 
+                            </li>
+                            <li class="montra">
+                                <p> Self-observation is the first step of inner unfolding </p>
+                            </li>
+                            <li class="profile-cta">
+                                <div class="profile-date">
+                                    <img src="./images/author-1.png" alt="">
+                                    <span class="author-info">
+                                        <h3> Joseph </h3>
+                                        <p> 25 Nov 2022 </p>
+                                    </span>
+                                </div>
+                                <a href="#"> Read more</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="cta-showMore">
+                <button class="btn">
+                  <a class="showMore" href="#"> <h3>Show More Posts</h3> </a>
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+            </div>
+               
+          </div>  
+        </section>
+
+        <section class=" popular-tags-section | margin-bottom-400">
+          <div class="popular-tags"> 
+            <div class="layout">
+                <div class="pop-text-content"> 
+                <h2>Popular Tags</h2>
+                <p>Most searched keywords</p>
+            </div>
+            <ul class="pop-tags-grid">
+                <li class="pop-tag">
+                    <img src="./images/tag1.png" alt="">
+                    <p> Travel </p>
+                </li>
+                <li class="pop-tag">
+                    <img src="./images/tag2.png" alt="">
+                    <p> Culture </p>
+                </li>
+                <li class="pop-tag">
+                    <img src="./images/tag3.png" alt="">
+                    <p> Lifestyle </p>
+                </li>
+                <li class="pop-tag">
+                    <img src="./images/tag4.png" alt="">
+                    <p> Fashion </p>
+                </li>
+                <li class="pop-tag">
+                    <img src="./images/tag5.png" alt="">
+                    <p> Food </p>
+                </li>
+                <li class="pop-tag">
+                    <img src="./images/tag6.png" alt="">
+                    <p> Space </p>
+                </li>
+                <li class="pop-tag">
+                    <img src="./images/tag7.png" alt="">
+                    <p> Animal </p>
+                </li>
+                <li class="pop-tag">
+                    <img src="./images/tag8.png" alt="">
+                    <p> Minimal </p>
+                </li>
+                <li class="pop-tag">
+                    <img src="./images/tag9.png" alt="">
+                    <p> Interior </p>
+                </li>
+                <li class="pop-tag">
+                    <img src="./images/tag10.png" alt="">
+                    <p> Plant </p>
+                </li>
+                <li class="pop-tag">
+                    <img src="./images/tag11.png" alt="">
+                    <p> Nature </p>
+                </li>
+                <li class="pop-tag">
+                    <img src="./images/tag12.png" alt="">
+                    <p> Business </p>
+                </li>
+            </ul>
+            </div>
+          </div>   
+        </section>
+
+        <section class="recent-posts |  margin-bottom-300">
+            <div class="container recent-pop-grid">
+                <div class="left-portion">
+                    <div style="text-align: start;" class="pop-text-content"> 
+                        <h2>Recent posts</h2>
+                        <p>Don't miss the latest trends</p>
+                    </div>
+                    <div class="recent-post-content">
+                        <img class="recent-post-img" src="./images/recent-post-1.jpg" alt="">
+                        <ul class="recent-post-desc">
+                            <li class="post-desc-content">
+                                <a class="working-tips" href="#"> Working Tips </a>
+                                <a class="help-tips" href="#"> <p> Helpful Tips for Working from Home as a Freelancer </p> </a>
+                                <p class="post-p-text"> Gosh ostrich quail one excited dear hello and bound and the and bland moral misheard roadrunner flapped lynx far that and jeepers giggled far and far </p>
+                                <div class="type-time-read">
+                                    <span class="type-time">
+                                        <p> <span class="dash"> # </span> Travel </p>
+                                        <p> <span class="dash"> # </span>  Lifestyle </p>
+                                    </span>
+
+                                    <span class="reading-time">
+                                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                                        <p> 3 mins read </p>
+                                    </span>
+
+                                </div>
+                             </li>
+                        </ul>
+                    </div>
+                    <div class="recent-post-content">
+                         <img class="recent-post-img" src="./images/recent-post-2.jpg" alt="">
+                        <ul class="recent-post-desc">
+                            <li class="post-desc-content">
+                                <a class="working-tips" href="#"> Working Tips </a>
+                                <a class="help-tips" href="#"> <p> Helpful Tips for Working from Home as a Freelancer </p> </a>
+                                <p class="post-p-text"> Gosh ostrich quail one excited dear hello and bound and the and bland moral misheard roadrunner flapped lynx far that and jeepers giggled far and far </p>
+                                <div class="type-time-read">
+                                    <span class="type-time">
+                                        <p> <span class="dash"> # </span> Travel </p>
+                                        <p> <span class="dash"> # </span>  Lifestyle </p>
+                                    </span>
+
+                                    <span class="reading-time">
+                                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                                        <p> 3 mins read </p>
+                                    </span>
+
+                                </div>
+                             </li>
+                        </ul>
+                    </div>
+                    <div class="recent-post-content">
+                         <img class="recent-post-img" src="./images/recent-post-3.jpg" alt="">
+                        <ul class="recent-post-desc">
+                            <li class="post-desc-content">
+                                <a class="working-tips" href="#"> Working Tips </a>
+                                <a class="help-tips" href="#"> <p> Helpful Tips for Working from Home as a Freelancer </p> </a>
+                                <p class="post-p-text"> Gosh ostrich quail one excited dear hello and bound and the and bland moral misheard roadrunner flapped lynx far that and jeepers giggled far and far </p>
+                                <div class="type-time-read">
+                                    <span class="type-time">
+                                        <p> <span class="dash"> # </span> Travel </p>
+                                        <p> <span class="dash"> # </span>  Lifestyle </p>
+                                    </span>
+
+                                    <span class="reading-time">
+                                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                                        <p> 3 mins read </p>
+                                    </span>
+
+                                </div>
+                             </li>
+                        </ul>
+                    </div>
+                    <div class="recent-post-content">
+                         <img class="recent-post-img" src="./images/recent-post-4.jpg" alt="">
+                        <ul class="recent-post-desc">
+                            <li class="post-desc-content">
+                                <a class="working-tips" href="#"> Working Tips </a>
+                                <a class="help-tips" href="#"> <p> Helpful Tips for Working from Home as a Freelancer </p> </a>
+                                <p class="post-p-text"> Gosh ostrich quail one excited dear hello and bound and the and bland moral misheard roadrunner flapped lynx far that and jeepers giggled far and far </p>
+                                <div class="type-time-read">
+                                    <span class="type-time">
+                                        <p> <span class="dash"> # </span> Travel </p>
+                                        <p> <span class="dash"> # </span>  Lifestyle </p>
+                                    </span>
+
+                                    <span class="reading-time">
+                                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                                        <p> 3 mins read </p>
+                                    </span>
+
+                                </div>
+                             </li>
+                        </ul>
+                    </div>
+                    <div class="recent-post-content">
+                         <img class="recent-post-img" src="./images/recent-post-5.jpg" alt="">
+                        <ul class="recent-post-desc">
+                            <li class="post-desc-content">
+                                <a class="working-tips" href="#"> Working Tips </a>
+                                <a class="help-tips" href="#"> <p> Helpful Tips for Working from Home as a Freelancer </p> </a>
+                                <p class="post-p-text"> Gosh ostrich quail one excited dear hello and bound and the and bland moral misheard roadrunner flapped lynx far that and jeepers giggled far and far </p>
+                                <div class="type-time-read">
+                                    <span class="type-time">
+                                        <p> <span class="dash"> # </span> Travel </p>
+                                        <p> <span class="dash"> # </span>  Lifestyle </p>
+                                    </span>
+
+                                    <span class="reading-time">
+                                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                                        <p> 3 mins read </p>
+                                    </span>
+
+                                </div>
+                             </li>
+                        </ul>
+                    </div>
+                    <div class="pages-scroll-buttons | margin-bottom-200">
+                        <a href="#" class="scroll-forward-page"> <ion-icon name="arrow-back" aria-hidden="true"></ion-icon> </a>
+                        <a class="one" href="#"> 1 </a>
+                        <a class="two" href="#"> 2 </a>
+                        <a class="three" href="#"> 3 </a>
+                        <a class="dots" href="#"> ... </a>
+                        <a href="#" class="scroll-forward-page"> <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon> </a>
+                    </div>
+                </div>
+                <div class="right-portion">
+                    <div class="popular-posts">
+                        <span class="pop-posts-text">
+                            <h3> Popular Posts </h3>
+                            <span class="bottom-mark">  </span>
+                        </span>
+                        <ul class="popular-posts-list">
+                            <li class="popular-post-space">
+                                <img src="./images/popular-post-1.jpg" alt="">
+                                <div class="popular-post-desc">
+                                    <p class="pop-desc-montra"> Creating is a privilege but it’s also a gift </p>
+                                    <span class="reading-date">
+                                        <p> 15 mins read </p>
+                                        <p> 15 april 2022 </p>
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="popular-post-space">
+                                <img src="./images/popular-post-2.jpg" alt="">
+                                <div class="popular-post-desc">
+                                    <p class="pop-desc-montra"> Being unique is better than being perfect </p>
+                                    <span class="reading-date">
+                                        <p> 15 mins read </p>
+                                        <p> 15 april 2022 </p>
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="popular-post-space">
+                                <img src="./images/popular-post-3.jpg" alt="">
+                                <div class="popular-post-desc">
+                                    <p class="pop-desc-montra">  Every day, in every city and town across the country </p>
+                                    <span class="reading-date">
+                                        <p> 15 mins read </p>
+                                        <p> 15 april 2022 </p>
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="popular-post-space">
+                                <img src="./images/popular-post-4.jpg" alt="">
+                                <div class="popular-post-desc">
+                                    <p class="pop-desc-montra"> Being unique is better than being perfect </p>
+                                    <span class="reading-date">
+                                        <p> 15 mins read </p>
+                                        <p> 15 april 2022 </p>
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="popular-post-space">
+                                <img src="./images/popular-post-2.jpg" alt="">
+                                <div style="border: none;" class="popular-post-desc">
+                                    <p class="pop-desc-montra"> Your voice, your mind, your story, your vision </p>
+                                    <span style="padding-bottom: 0px; margin-bottom: 0px; " class="reading-date">
+                                        <p> 15 mins read </p>
+                                        <p> 15 april 2022 </p>
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="last-comments">
+                        <span class="pop-posts-text">
+                                <h3> Last Comments </h3>
+                                <span class="bottom-mark">  </span>
+                        </span>
+                      <div class="comment">
+                            <div class="pop-post-comment">
+                                <p class="comment-text"> “ Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard roadrunner “</p>
+                                <div class="pfp-name">
+                                    <img src="./images/author-6.png" alt="">
+                                    <span class="pop-post-pfp">
+                                        <p class="author-name"> Jane Cooper </p>
+                                        <p class="comment-date"> 15 April 2022 </p>
+                                    </span>
+                                </div>
+                            </div>
+                        </div> 
+                      <div class="comment">
+                            <div class="pop-post-comment">
+                                <p class="comment-text"> “ Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard roadrunner “</p>
+                                <div class="pfp-name">
+                                    <img src="./images/author-7.png" alt="">
+                                    <span class="pop-post-pfp">
+                                        <p class="author-name"> Jane Cooper </p>
+                                        <p class="comment-date"> 15 April 2022 </p>
+                                    </span>
+                                </div>
+                            </div>
+                        </div> 
+                      <div class="comment">
+                            <div class="pop-post-comment">
+                                <p class="comment-text"> “ Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard roadrunner “</p>
+                                <div style="padding-bottom: 0px; margin-bottom: 0px; border: none;" class="pfp-name">
+                                    <img src="./images/author-8.png" alt="">
+                                    <span class="pop-post-pfp">
+                                        <p class="author-name"> Jane Cooper </p>
+                                        <p class="comment-date"> 15 April 2022 </p>
+                                    </span>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="account-posts-cta ">
+                        <div class="insta-page-text">
+                            <img width="119px" src="./images/logo.svg" alt="">
+                            <p> Follow us on instagram </p>
+                        </div>
+                        <ul class="insta-posts-grid">
+                            <li><img src="./images/insta-post-1.png" alt=""></li>
+                            <li><img src="./images/insta-post-2.png" alt=""></li>
+                            <li><img src="./images/insta-post-3.png" alt=""></li>
+                            <li><img src="./images/insta-post-4.png" alt=""></li>
+                            <li><img src="./images/insta-post-5.png" alt=""></li>
+                            <li><img src="./images/insta-post-6.png" alt=""></li>
+                            <li><img src="./images/insta-post-7.png" alt=""></li>
+                            <li><img src="./images/insta-post-8.png" alt=""></li>
+                            <li><img src="./images/insta-post-9.png" alt=""></li>
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="padding-bottom-200 ">
+         <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#"> <img src="./images/logo.svg" alt=""> </a>
+                    <p class="brand-desc">
+                        When an unknown prnoto sans took a galley and scrambled it to make specimen book not only five When an unknown prnoto sans took a galley and scrambled it to five centurie.  
+                    </p>
+                    <span>
+                       <h3 class="address"> Address </h3>
+                       <p> 123 Main Street </p>
+                       <p> New York, NY 10001</p>
+                       
+                    </span>
+                </div>
+                <div class="footer-categories">
+                    <h3 class="categories"> Categories </h3>
+                      <ul class="footer-list">
+                    <li class="list-item">
+                        <a href="#"> <p> Action</p> </a> 
+                    </li>
+                    <li class="list-item">
+                        <a href="#"> <p> Business</p> </a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#"> <p> Adventure</p> </a> 
+                    </li>
+                    <li class="list-item">
+                        <a href="#"> <p> Canada </p> </a> 
+                    </li>
+                    <li class="list-item">
+                        <a href="#"> <p> America </p> </a> 
+                    </li>
+                    <li class="list-item">
+                        <a href="#"> <p> Animal </p> </a> 
+                    </li>
+                    <li class="list-item">
+                        <a href="#"> <p> Curiosity </p> </a> 
+                    </li>
+                    <li class="list-item">
+                        <a href="#"> <p> Dental </p> </a> 
+                    </li>
+                    <li class="list-item">
+                        <a href="#"> <p> Biology </p> </a> 
+                    </li>
+                    <li class="list-item">
+                        <a href="#"> <p> Design </p> </a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#"> <p> Breakfast </p> </a> 
+                    </li>
+                    <li class="list-item">
+                        <a href="#"> <p> Dessert </p> </a> 
+                    </li>
+                </ul>
+                </div>
+              
+                <div class="newsletter">
+                    <h3 class="newsletter">    Newsletter </h3>
+                    <p> Sign up to be first to receive the latest stories inspiring us, case studies, and industry news. </p>
+                    <div class="footer-input">
+                        <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                        <input type="text" placeholder="Your name">
+                    </div>
+                    <div class="footer-input">
+                        <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                        <input type="text" placeholder="Emaill address">
+                    </div>
+                    <a class="footer-btn" href="#">
+                        <h3> Subscribe</h3>
+                        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    </a>
+                </div>
+            </div> 
+               <div class="footer-bottom">
+                <p class="footer-copyright"> © Developed by <a href="#"> codewithsadee. </a> </p>
+                <div class="footer-socials">
+                    <span class="social-link">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                        <p> Twitter</p>
+                    </span>
+                    <span class="social-link">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                        <p> Linkedin </p>
+                    </span>
+                    <span class="social-link">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                        <p> Instagram </p>
+                    </span>
+                </div>
+               </div> 
+                
+          </div>
+        </footer>
+
+
+  <!-- ion-icon link -->
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
