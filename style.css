@@ -1841,3 +1841,10 @@ footer .container {
   margin-block-end: 80px;
 }
 }
+
+
+@media (max-width:480px) {
+  .footer-input input {
+    width: 90%;
+  }
+}
